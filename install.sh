@@ -1,7 +1,9 @@
 #!/usr/bin/env sh
+
 #creating the work space 
 mkdir -p catkin_ws/src
 cd catkin_ws/src
+
 # adding the turtlebot function
 git clone https://github.com/turtlebot/turtlebot_simulator.git
 git clone https://github.com/turtlebot/turtlebot.git
@@ -11,6 +13,7 @@ git clone https://github.com/turtlebot/turtlebot_interactions.git
 
 cd ~/catkin_ws
 catkin_make 
+
 #adding the humans-factors-lab
 cd catkin_ws/src
 catkin_create_pkdg human-factors-lab rospy
