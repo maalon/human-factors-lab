@@ -5,7 +5,7 @@ mkdir -p catkin_ws/src
 cd catkin_ws/src
 
 # adding the turtlebot function
-catkin_create_pkdg human-factors-lab rospy
+catkin_create_pkg human-factors-lab rospy
 cd human-factors-lab
 mkdir scripts
 ​
