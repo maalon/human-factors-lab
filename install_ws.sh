@@ -1,6 +1,7 @@
 #!/usr/bin/env sh
 
 #creating the work space 
+cd ~
 mkdir -p catkin_ws/src
 cd catkin_ws/src
 
